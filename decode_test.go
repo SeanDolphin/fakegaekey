@@ -1,10 +1,9 @@
 package fakegaekey_test
 
 import (
+	"github.com/SeanDolphin/fakegaekey"
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"
-
-	"bitbucket.org/kpcompass/fakegaekey"
 )
 
 var _ = ginkgo.Describe("Decoding", func() {

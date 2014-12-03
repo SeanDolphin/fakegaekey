@@ -4,7 +4,7 @@ import (
 	"github.com/onsi/ginkgo"
 	"github.com/onsi/gomega"
 
-	"bitbucket.org/kpcompass/fakegaekey"
+	"github.com/SeanDolphin/fakegaekey"
 )
 
 var _ = ginkgo.Describe("Key", func() {
