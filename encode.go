@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"strings"
 
-	pb "code.google.com/p/appengine-go/appengine_internal/datastore"
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/golang/protobuf/proto"
+	pb "google.golang.org/appengine/internal/datastore"
 )
 
 func keyToProto(defaultAppID string, k *Key) *pb.Reference {
